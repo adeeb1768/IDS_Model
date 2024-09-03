@@ -1,0 +1,55 @@
+INFO flwr 2024-05-30 14:21:14,255 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=4, round_timeout=None)    
+INFO flwr 2024-05-30 14:21:14,298 | app.py:175 | Flower ECE: gRPC server running (4 rounds), SSL is disabled
+INFO flwr 2024-05-30 14:21:14,298 | server.py:89 | Initializing global parameters
+INFO flwr 2024-05-30 14:21:14,298 | server.py:272 | Using initial parameters provided by strategy
+INFO flwr 2024-05-30 14:21:14,298 | server.py:91 | Evaluating initial parameters1500/1500 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.0966 - loss: 2.5264
+INFO flwr 2024-05-30 14:21:17,033 | server.py:94 | initial parameters (loss, other metrics): 2.52579402923584, {'accuracy': 0.09499
+99988079071}
+INFO flwr 2024-05-30 14:21:17,034 | server.py:104 | FL starting
+DEBUG flwr 2024-05-30 14:24:36,959 | server.py:222 | fit_round 1: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 14:48:45,051 | server.py:236 | fit_round 1 received 21 results and 0 failures
+WARNING flwr 2024-05-30 14:48:45,194 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+1500/1500 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.7038 - loss: 0.4990    
+INFO flwr 2024-05-30 14:48:47,842 | server.py:125 | fit progress: (1, 0.49913227558135986, {'accuracy': 0.7066041827201843}, 1650.8
+200393000006)
+DEBUG flwr 2024-05-30 14:48:47,858 | server.py:173 | evaluate_round 1: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 14:48:50,447 | server.py:187 | evaluate_round 1 received 21 results and 0 failures
+WARNING flwr 2024-05-30 14:48:50,450 | fedavg.py:273 | No evaluate_metrics_aggregation_fn provided
+DEBUG flwr 2024-05-30 14:48:50,452 | server.py:222 | fit_round 2: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 15:08:52,708 | server.py:236 | fit_round 2 received 21 results and 0 failures
+1500/1500 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.9071 - loss: 0.1391   
+INFO flwr 2024-05-30 15:08:54,582 | server.py:125 | fit progress: (2, 0.140336811542511, {'accuracy': 0.9060208201408386}, 2857.5489360000065)      
+DEBUG flwr 2024-05-30 15:08:54,582 | server.py:173 | evaluate_round 2: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 15:08:56,032 | server.py:187 | evaluate_round 2 received 21 results and 0 failures
+DEBUG flwr 2024-05-30 15:08:56,033 | server.py:222 | fit_round 3: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 15:53:36,294 | server.py:236 | fit_round 3 received 21 results and 0 failures
+INFO flwr 2024-05-30 15:08:54,582 | server.py:125 | fit progress: (2, 0.140336811542511, {'accuracy': 0.9060208201408386}, 2857.5489360000065)    
+DEBUG flwr 2024-05-30 15:08:54,582 | server.py:173 | evaluate_round 2: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 15:08:56,032 | server.py:187 | evaluate_round 2 received 21 results and 0 failures
+DEBUG flwr 2024-05-30 15:08:56,033 | server.py:222 | fit_round 3: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 15:53:36,294 | server.py:236 | fit_round 3 received 21 results and 0 failures
+INFO flwr 2024-05-30 15:08:54,582 | server.py:125 | fit progress: (2, 0.140336811542511, {'accuracy': 0.9060208201408386},
+ 2857.5489360000065)
+DEBUG flwr 2024-05-30 15:08:54,582 | server.py:173 | evaluate_round 2: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 15:08:56,032 | server.py:187 | evaluate_round 2 received 21 results and 0 failures
+DEBUG flwr 2024-05-30 15:08:56,033 | server.py:222 | fit_round 3: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 15:53:36,294 | server.py:236 | fit_round 3 received 21 results and 0 failures
+1500/1500 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.9858 - loss: 0.0700
+INFO flwr 2024-05-30 15:53:38,354 | server.py:125 | fit progress: (3, 0.07076020538806915, {'accuracy': 0.9847916960716248
+}, 5541.3365959000075)
+DEBUG flwr 2024-05-30 15:53:38,357 | server.py:173 | evaluate_round 3: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 15:53:39,632 | server.py:187 | evaluate_round 3 received 21 results and 0 failures
+DEBUG flwr 2024-05-30 15:53:39,633 | server.py:222 | fit_round 4: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 16:00:40,066 | server.py:236 | fit_round 4 received 21 results and 0 failures
+1500/1500 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - accuracy: 0.9849 - loss: 0.0662
+INFO flwr 2024-05-30 16:00:42,849 | server.py:125 | fit progress: (4, 0.06678971648216248, {'accuracy': 0.9847708344459534
+}, 5965.8380701999995)
+DEBUG flwr 2024-05-30 16:00:42,857 | server.py:173 | evaluate_round 4: strategy sampled 21 clients (out of 21)
+DEBUG flwr 2024-05-30 16:00:44,499 | server.py:187 | evaluate_round 4 received 21 results and 0 failures
+INFO flwr 2024-05-30 16:00:44,499 | server.py:153 | FL finished in 5967.486728699994
+INFO flwr 2024-05-30 16:00:44,506 | app.py:225 | app_fit: losses_distributed [(1, 0.6260530678998857), (2, 0.7855659794239
+771), (3, 0.7383747356278556), (4, 0.6710247895902112)]
+INFO flwr 2024-05-30 16:00:44,506 | app.py:226 | app_fit: metrics_distributed_fit {}
+INFO flwr 2024-05-30 16:00:44,506 | app.py:227 | app_fit: metrics_distributed {}INFO flwr 2024-05-30 16:00:44,506 | app.py:228 | app_fit: losses_centralized [(0, 2.52579402923584), (1, 0.499132275581359
+86), (2, 0.140336811542511), (3, 0.07076020538806915), (4, 0.06678971648216248)]INFO flwr 2024-05-30 16:00:44,506 | app.py:229 | app_fit: metrics_centralized {'accuracy': [(0, 0.0949999988079071), (1, 0
+.7066041827201843), (2, 0.9060208201408386), (3, 0.9847916960716248), (4, 0.9847708344459534)]}
