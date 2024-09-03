@@ -1,0 +1,23 @@
+split_dataset_filea.py
+
+The code is designed to organize a large number of files within a CIC IoT 2023 folder into smaller groups of a predefined size.
+ This can be useful for  managing this large datasets and organizing files for analysis.
+
+------------------------------------------------------------------
+
+concate_data.py
+
+The code is designed to efficiently combine multiple CSV files within subfolders of a given main CIC IoT 2023 folder into a single output CSV file for each subfolder.
+ This can be helpful for data analysis and processing tasks that require consolidated data from multiple sources.
+
+------------------------------------------------------------------
+
+balancing_filtering_data.py
+
+ applying specific data manipulation techniques and saving the modified data to new CSV files.
+
+------------------------------------------------------------------
+
+process_test_data_file.py
+
+applying specific data manipulation techniques on test file and saving the modified data to new CSV file.
