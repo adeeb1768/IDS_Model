@@ -108,7 +108,7 @@ def main() -> None:
 
     # Load and compile Keras model
     model = my_model()
-    client_id=1
+    client_id=1   #integer Id number in range [1--->21]
     # Load a subset of data to simulate the local data partition
     x_train, x_test,y_train, y_test = get_data(client_id)
 
