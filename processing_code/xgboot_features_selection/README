@@ -1,0 +1,9 @@
+features_importance_calculation.py
+
+this code use XGBoost and GridSearchCV to calculate importance of each feature in data provided.
+
+-------------------------------------------------------------
+
+feature_filtering.py
+
+this code remove features unwanted from data files.
